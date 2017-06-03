@@ -12,7 +12,7 @@ log/
 .svn/
 .hg/
 
-#conf.ini
+conf.ini
 config.dbc
 configphp.dbc
 *.dbc
