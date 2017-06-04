@@ -9,6 +9,10 @@ Page needing no login..
 
 http://v206x2016103022/shiftcsd1-static-login-after/index.php?-table=about_this_app&-action=homepage#  
 
+or
+
+http://v206x2016103022/shiftcsd1-static-login-after/index.php?-action=homepage#  
+
 
 
 # viewstaticpage_loginLater-xataface
