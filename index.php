@@ -22,5 +22,4 @@ if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
 df_init(__FILE__, "/xataface");
 $app =& Dataface_Application::getInstance();
  
-
 $app->display();

@@ -5,6 +5,15 @@ SET NAMES utf8;
 -- SET foreign_key_checks = 0;
 SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 
+DROP TABLE IF EXISTS `about_this_app`;
+CREATE TABLE `about_this_app` (
+  `sortorder` int(11) NOT NULL,
+  `about_fld` text NOT NULL,
+  `createdtime` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updatedtime` datetime DEFAULT NULL,
+  PRIMARY KEY (`sortorder`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 
 DROP TABLE IF EXISTS `people`;
 CREATE TABLE `people` (

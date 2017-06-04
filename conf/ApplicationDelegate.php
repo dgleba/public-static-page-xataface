@@ -22,8 +22,17 @@ class conf_ApplicationDelegate {
 		return Dataface_PermissionsTool::getRolePermissions($role);
 		// Returns all of the permissions for the user's current role.
 	}
-		
+
+  public function beforeHandleRequest() {
+      Dataface_Application::getInstance()
+              ->addHeadContent(
+                      sprintf('<link rel="stylesheet" type="text/css" href="%s"/>', htmlspecialchars(DATAFACE_SITE_URL . '/css/style-xf1.css')
+                      )
+      );
+  } 
+  
 }
+
 
 
 
