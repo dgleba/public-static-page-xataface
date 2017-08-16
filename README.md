@@ -14,5 +14,10 @@ or
 http://v206x2016103022/shiftcsd1-static-login-after/index.php?-action=homepage#  
 
 
+## Data:
+
+See `sql/` folder for data tables definition and username/password
+
+---
 
 # viewstaticpage_loginLater-xataface
