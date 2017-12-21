@@ -20,4 +20,9 @@ See `sql/` folder for data tables definition and username/password
 
 ---
 
-# viewstaticpage_loginLater-xataface
+### was .. viewstaticpage_loginLater-xataface
+
+# now..
+
+https://github.com/dgleba/public-static-page-xataface
+
