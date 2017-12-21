@@ -22,7 +22,9 @@ See `sql/` folder for data tables definition and username/password
 
 ### was .. viewstaticpage_loginLater-xataface
 
-# now..
+# Now..
 
 https://github.com/dgleba/public-static-page-xataface
+
+I have tested this as xatap362, at sftp://albe@10.4.1.224/var/www/html/xatap362
 
