@@ -12,7 +12,8 @@ jQuery(document).ready(function($) {
     // [_auth]
         // session_timeout=360 
 
-var totalcount = 122123;
+// var totalcount = 122123;  122123 = 122 seconds
+var totalcount = 89045123;
 var countdwn = parseInt(totalcount / 1000);
 
 var time = new Date().getTime();
