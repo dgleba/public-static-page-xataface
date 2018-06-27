@@ -28,3 +28,21 @@ https://github.com/dgleba/public-static-page-xataface
 
 I have tested this as xatap362, at sftp://albe@10.4.1.224/var/www/html/xatap362
 
+
+# One way to install this.
+
+```
+cd /var/www/html
+git clone https://github.com/dgleba/public-static-page-xataface.git actionlogin2
+cd actionlogin2
+touch templates_c/.keep
+cp config.dbc.example config.dbc
+cp conf-example.ini conf.ini
+cd ..
+git clone https://github.com/shannah/xataface.git
+```
+
+
+David Gleba
+dgleba@gmail.com
+
