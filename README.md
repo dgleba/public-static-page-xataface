@@ -41,8 +41,10 @@ cp conf-example.ini conf.ini
 cd ..
 git clone https://github.com/shannah/xataface.git
 ```
+remember to - create the data in test database using the code in the `sql` folder
 
 
+---
 David Gleba
 dgleba@gmail.com
 
