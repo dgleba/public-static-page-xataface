@@ -44,7 +44,14 @@ class conf_ApplicationDelegate {
         // }        
   }
  
-    
+    function block__before_login_form() {
+        
+        echo '<a href="index.php?-action=homepage">';
+        echo '<button type="button" id="dash-btn1" >   <span style="font-size:1.4em;">Home</span>  </button> ';
+        echo "<div id=\"dgleba22loginform\"> <br> </div> ";
+        echo "</a>";
+    }
+
     function block__after_left_column() {
         //block__before_fineprint()   block__after_left_column()
         echo "<div id=\"dgleba21\"> <br> </div> ";
