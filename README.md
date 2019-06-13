@@ -26,5 +26,7 @@ See `sql/` folder for data tables definition and username/password
 
 https://github.com/dgleba/public-static-page-xataface
 
-I have tested this as xatap362, at sftp://albe@10.4.1.224/var/www/html/xatap362
+I have tested this as xatap362, at    //albe@10.4.1.224/var/www/html/xatap362/
+
+Visit  xatap362 at http://albe@10.4.1.224/xatap362/index.php?-action=homepage# 
 
