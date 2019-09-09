@@ -1,4 +1,8 @@
-#xf-logo {
+#xf-logo,
+#site_logo,
+.site_logo {
   background-image: url(blanklogo.png);
-	height: 75px;
+  height: 7px;
+  visibility: hidden;
+  transform: scale(0.1);
 }

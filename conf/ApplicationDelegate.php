@@ -54,8 +54,9 @@ class conf_ApplicationDelegate {
 
     function block__after_left_column() {
         //block__before_fineprint()   block__after_left_column()
-        echo "<div id=\"dgleba21\"> <br> </div> ";
-        echo "<div id=\"timeoutdg1\">  Timeout: <span id=\"timeoutdg2\"> </span></div> ";
+        //echo "<div id=\"dgleba21\"> <br> </div> ";
+        //echo "<div id=\"timeoutdg1\">  . <span id=\"timeoutdg2\"> </span></div> ";
+        echo "<div id=\"timeoutdg1\">  . </div> ";
     }
     
     

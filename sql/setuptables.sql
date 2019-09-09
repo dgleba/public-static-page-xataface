@@ -5,7 +5,8 @@ SET NAMES utf8;
 -- SET foreign_key_checks = 0;
 SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 
---- DROP TABLE IF EXISTS `about_this_app`;
+-- DROP TABLE IF EXISTS `about_this_app`;
+
 CREATE TABLE `about_this_app` (
   `sortorder` int(11) NOT NULL,
   `about_fld` text NOT NULL,
@@ -15,7 +16,8 @@ CREATE TABLE `about_this_app` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
---- DROP TABLE IF EXISTS `people`;
+-- DROP TABLE IF EXISTS `people`;
+
 CREATE TABLE `people` (
   `name` varchar(255) NOT NULL,
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -28,7 +30,8 @@ INSERT INTO `people` (`name`, `id`) VALUES
 ('Ken',	3),
 ('Joe',	4);
 
---- DROP TABLE IF EXISTS `users_xataface`;
+-- DROP TABLE IF EXISTS `users_xataface`;
+
 CREATE TABLE `users_xataface` (
   `username` varchar(32) NOT NULL,
   `password` varchar(244) NOT NULL,
@@ -45,6 +48,7 @@ CREATE TABLE `users_xataface` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `users_xataface` (`username`, `password`, `Role`, `first_name`, `last_name`, `address`, `phone_num`, `email`, `comment_fld1`, `createdtime`, `updatedtime`) VALUES
-('a',	'',	'EDIT',	NULL,	NULL,	NULL,	NULL,	'x@x.com',	NULL,	'2013-06-18 17:46:12',	'2013-07-17 11:28:59');
+('a',	'a',	'EDIT',	NULL,	NULL,	NULL,	NULL,	'x@x.com',	NULL,	'2013-06-18 17:46:12',	'2013-07-17 11:28:59');
+
 
 -- 2016-11-19 16:33:15
